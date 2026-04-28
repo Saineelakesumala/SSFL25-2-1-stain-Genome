@@ -149,8 +149,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Per base sequence quality | PASS |
 | Per tile sequence quality | WARNING |
 | Per sequence quality scores | PASS |
-| Per base sequence content | PASS |
-| Per sequence GC content | WARN |
+| Per base sequence content | WARNING |
+| Per sequence GC content | WARNING |
 | Per base N content | PASS |
 | Sequence Length Distribution | WARNING |
 | Sequence Duplication Levels | PASS |
@@ -176,10 +176,10 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 |---|---|
 | Basic Statistics | PASS |
 | Per base sequence quality | PASS |
-| Per tile sequence quality | FAILED |
+| Per tile sequence quality |  WARNING |
 | Per sequence quality scores | PASS |
-| Per base sequence content | PASS |
-| Per sequence GC content | WARN |
+| Per base sequence content | WARNING |
+| Per sequence GC content |  WARNING |
 | Per base N content | PASS |
 | Sequence Length Distribution | WARNING |
 | Sequence Duplication Levels | PASS |
