@@ -143,16 +143,6 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
  fastqc  SSFL25-2-1_1_paired.fastq SSFL25-2-1_2_paired.fastq  SSFL25-2-1_1_unpaired.fastq SSFL25-2-1_2_unpaired.fastq
 ```
 
-4. SSFL25-2-1_1_paired.fastq FastQC Summary 
-<iframe src="TRIMED FASTQ/SsFL25-2-1_2_paired_fastqc.html"></iframe>
-![Per Base Sequence Quality](IMAGES/Per_base_sequence_content_Paired_PR0069.1.png)
-![Per Tile Sequence Quality](IMAGES/Pertile_sequence_quality_paired_PR0069.1.png)
-![Per Sequence Quality Scores](IMAGES/Per_base_sequence_quality_Paired_PR0069.1png..png)
-![Per Base N Content](IMAGES/Per_base_N_content_paired_PR0069.1.png)
-![Sequence Length Distribution](IMAGES/Sequence_length_distribution_paired_PR0069.1.png)
-![Sequence Duplication Levels](IMAGES/Sequence_Duplication_levels_paired_PR0069.1.png)
-![Adapter Content](IMAGES/Adapter_content_Paired_PR0069.png)
-
 | Module | Status |
 |---|---|
 | Basic Statistics | PASS |
@@ -169,7 +159,18 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
-
+4. SSFL25-2-1_1_paired.fastq FastQC Summary 
+![Summary](FASTQU_PAIRED/Basic_stats_SsFL-25-1-1-PAIRED.png)
+![Per Base Sequence Quality](FASTQU_PAIRED/PER_BASE_SEQUENCE_QUALITY_SsFL25-1-1-PAIRED.png)
+![Per Tile Sequence Quality](FASTQU_PAIRED/Per_tile_sequence_quality- SsFL25-1-1-PAIRED.png)
+![Per sequence quality scores](FASTQU_PAIRED/Per_sequence_quality_scores_SsFL25-1-1-paired.png)
+![Per base sequence content](FASTQU_PAIRED/Per_base_sequence_content-SsFL25-1-1-PAIRED.png)
+![Per sequence GC content](FASTQU_PAIRED/Per_sequence_GC_content- SsFL25-1-1PAIRED.png)
+![Per base N content](FASTQU_PAIRED/Per_base_N _content_SsFL-1-1-PAIRED.png)
+![Sequence Length Distribution](FASTQU_PAIRED/Sequence_Length_Distribution_SsFL25-1-1-PAIRED.png)
+![Sequence Duplication Levels](FASTQ/SEQUENCE_DUPLICATION_LEVELS_SsFL25_2_1-1.png)
+![Overrepresented sequences](FASTQ/OVERREPRESENTED_SEQUENCE_SsFL25_2_1.png)
+![Adapter Content](FASTQU_PAIRED/Adapter_Content-SsFL25-1-1PAIRED.png)
 
 5. SSFL25-2-1_1_unpaired.fastq FastQC Summary
 ![Summary](IMAGES/Basic_Statistics_Unpaired_PR0069.1.png)
