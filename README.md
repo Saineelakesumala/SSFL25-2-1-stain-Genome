@@ -160,7 +160,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
 4. SSFL25-2-1_1_paired.fastq FastQC Summary
-5. 
+   
 ![Summary](FASTQU_PAIRED/Basic_stats_SsFL-25-1-1-PAIRED.png)
 ![Per Base Sequence Quality](FASTQU_PAIRED/PER_BASE_SEQUENCE_QUALITY_SsFL25-1-1-PAIRED.png)
 ![Per Tile Sequence Quality](FASTQU_PAIRED/Per_tile_sequence_quality-SsFL25-1-1-PAIRED.png)
