@@ -71,8 +71,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 > **Warnings:** Per tile sequence quality, Per sequence GC content and Sequence Length Distribution — adapters must be removed for further assembly analysis. 
 
-4.SsFL25-2-1_1 FastQC Summary 
-
+ 
+(![Summary](FASTQ/BASIC_STATISTICS_SsFL25_2_1_1.png)
 ![Per Base Sequence Quality](FASTQ/PER_BASE_SEQUENCE-QUALITY.png)
 ![Per Tile Sequence Quality](FASTQ/PER_TILE_SEQUENCE_QUALITY_SsFL25-2-1-1.png)
 ![Per sequence quality scores](FASTQ/PER_SEQUENCE-QUALITY_SCORES.png)
