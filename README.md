@@ -167,7 +167,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Per sequence quality scores](FASTQU_PAIRED/Per_sequence_quality_scores_SsFL25-1-1-paired.png)
 ![Per base sequence content](FASTQU_PAIRED/Per_base_sequence_content-SsFL25-1-1-PAIRED.png)
 ![Per sequence GC content](FASTQU_PAIRED/Per_sequence_GC_content-SsFL25-1-1PAIRED.png)
-![Per base N content](FASTQU_PAIRED/Per_base_N _content_SsFL-1-1-PAIRED.png)
+![Per base N content](FASTQU_PAIRED/Per_base_N_content_SsFL-1_1-PAIRED.png)
 ![Sequence Length Distribution](FASTQU_PAIRED/Sequence_Length_Distribution_SsFL25-1-1-PAIRED.png)
 ![Sequence Duplication Levels](FASTQ/SEQUENCE_DUPLICATION_LEVELS_SsFL25_2_1-1.png)
 ![Overrepresented sequences](FASTQ/OVERREPRESENTED_SEQUENCE_SsFL25_2_1.png)
