@@ -162,25 +162,15 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 4. SSFL25-2-1_1_paired.fastq FastQC Summary 
 ![Summary](FASTQU_PAIRED/Basic_stats_SsFL-25-1-1-PAIRED.png)
 ![Per Base Sequence Quality](FASTQU_PAIRED/PER_BASE_SEQUENCE_QUALITY_SsFL25-1-1-PAIRED.png)
-![Per Tile Sequence Quality](FASTQU_PAIRED/Per_tile_sequence_quality- SsFL25-1-1-PAIRED.png)
+![Per Tile Sequence Quality](FASTQU_PAIRED/Per_tile_sequence_quality-SsFL25-1-1-PAIRED.png)
 ![Per sequence quality scores](FASTQU_PAIRED/Per_sequence_quality_scores_SsFL25-1-1-paired.png)
 ![Per base sequence content](FASTQU_PAIRED/Per_base_sequence_content-SsFL25-1-1-PAIRED.png)
-![Per sequence GC content](FASTQU_PAIRED/Per_sequence_GC_content- SsFL25-1-1PAIRED.png)
+![Per sequence GC content](FASTQU_PAIRED/Per_sequence_GC_content-SsFL25-1-1PAIRED.png)
 ![Per base N content](FASTQU_PAIRED/Per_base_N _content_SsFL-1-1-PAIRED.png)
 ![Sequence Length Distribution](FASTQU_PAIRED/Sequence_Length_Distribution_SsFL25-1-1-PAIRED.png)
 ![Sequence Duplication Levels](FASTQ/SEQUENCE_DUPLICATION_LEVELS_SsFL25_2_1-1.png)
 ![Overrepresented sequences](FASTQ/OVERREPRESENTED_SEQUENCE_SsFL25_2_1.png)
 ![Adapter Content](FASTQU_PAIRED/Adapter_Content-SsFL25-1-1PAIRED.png)
-
-5. SSFL25-2-1_1_unpaired.fastq FastQC Summary
-![Summary](IMAGES/Basic_Statistics_Unpaired_PR0069.1.png)
-![Per Base Sequence Quality](IMAGES/Per_base_sequence_quality_unpaired_PR0069.1.png)
-![Per Tile Sequence Quality](IMAGES/per_tile_sequence_quality_unpaired_PR0069.1.png)
-![Per Sequence Quality Scores](IMAGES/Per_sequence_quality_unpaired_PR0069.1.png)
-![Per Base N Content](IMAGES/Per_base_N_content_Unpaired_PR0069.png)
-![Sequence Length Distribution](IMAGES/Sequence_length_distribution_unpaired_PR0069.png)
-![Sequence Duplication Levels](IMAGES/Sequence_duplication_levels_unpaired_PR0069.png)
-![Adapter Content](IMAGES/ADAPTER_CONTENT_PR0069_2_UNPAIRED.png)
 
 | Module | Status |
 |---|---|
@@ -196,19 +186,20 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Overrepresented sequences | PASS |
 | Adapter Content | PASS |
 
+6. SSFL25-2-1_1_unpaired.fastq FastQC Summary
+![Summary](IMAGES/Basic_Statistics_Unpaired_PR0069.1.png)
+![Per Base Sequence Quality](IMAGES/Per_base_sequence_quality_unpaired_PR0069.1.png)
+![Per Tile Sequence Quality](IMAGES/per_tile_sequence_quality_unpaired_PR0069.1.png)
+![Per Sequence Quality Scores](IMAGES/Per_sequence_quality_unpaired_PR0069.1.png)
+![Per Base N Content](IMAGES/Per_base_N_content_Unpaired_PR0069.png)
+![Sequence Length Distribution](IMAGES/Sequence_length_distribution_unpaired_PR0069.png)
+![Sequence Duplication Levels](IMAGES/Sequence_duplication_levels_unpaired_PR0069.png)
+![Adapter Content](IMAGES/ADAPTER_CONTENT_PR0069_2_UNPAIRED.png)
+
+
+
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
-
-6. SSFL25-2-1_2_paired.fastq FastQC Summary
-![Summary](IMAGES/Basic_Statistics_PR0069.2.png)
-![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_PAIRED.png)
-![Per Tile Sequence Quality](IMAGES/PER_TILE_SEQUENCE_QUALITY_PR0069_2_PAIRED.png)
-![Per Sequence Quality Scores](IMAGES/PER_BASE_SEQUENCE_QUALITY_PR0069_2_PAIRED.png)
-![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_PAIRED.png)
-![Per Sequence GC Content](IMAGES/PER_BASE_N_CONTENT_PR0069_2_PAIRED.png)
-![Sequence Length Distribution](IMAGES/SEQUENCE_LENGTH_DISTRIBUTION_PR0069_2_PAIRED.png)
-![Sequence Duplication Levels](IMAGES/SEQUENCEDUPLICATION_LEVELS_PR0069_2_PAIRED.png)
-![adapter_after.png](IMAGES/ADAPTER_CONTENT_PR0069_2_PAIRED.png)
 
 | Module | Status |
 |---|---|
@@ -224,18 +215,21 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Overrepresented sequences | PASS |
 | Adapter Content | WARNING |
 
-> **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
-7. FastQC Summary  of SSFL25-2-1_2_unpaired.fastq read (After Trimming)
-![Summary](IMAGES/BASICS STATSTICS_PR0069_2_UNPAIRED.png)
-![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_UNPAIRED.png)
-![Per Tile Sequence Quality](IMAGES/PER_TILE_SEQUENCE_QUALITY_PR0069_2_UNPAIRED.png)
-![Per Sequence Quality Scores](IMAGES/PER_SEQUENCE_QUALITY_SCORES_PR0069_2_UNPAIRED.png)
-![Per Sequence GC Content](IMAGES/PER_SEQUENCE_GC_CONTENT_PR0069_2_UNPAIRED.png)
-![Per Base N Content](IMAGES/PER_BASE_N_CONTENT_PR0069_2_UNPAIRED.png)
-![Sequence Length Distribution](IMAGES/SEQUENCE_LENGTH_DISTRIBUTION_PR0069_2_UNPAIRED.png)
-![Sequence Duplication Levels](IMAGES/SEQUENCE_DUPLICATION_LEVELS_PR0069_2_UNPAIRED.png)
-![adapter_after.png](IMAGES/ADAPTER_CONTENT_PR0069_2_UNPAIRED.png)
+6. SSFL25-2-1_2_paired.fastq FastQC Summary
+![Summary](IMAGES/Basic_Statistics_PR0069.2.png)
+![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_PAIRED.png)
+![Per Tile Sequence Quality](IMAGES/PER_TILE_SEQUENCE_QUALITY_PR0069_2_PAIRED.png)
+![Per Sequence Quality Scores](IMAGES/PER_BASE_SEQUENCE_QUALITY_PR0069_2_PAIRED.png)
+![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_PAIRED.png)
+![Per Sequence GC Content](IMAGES/PER_BASE_N_CONTENT_PR0069_2_PAIRED.png)
+![Sequence Length Distribution](IMAGES/SEQUENCE_LENGTH_DISTRIBUTION_PR0069_2_PAIRED.png)
+![Sequence Duplication Levels](IMAGES/SEQUENCEDUPLICATION_LEVELS_PR0069_2_PAIRED.png)
+![adapter_after.png](IMAGES/ADAPTER_CONTENT_PR0069_2_PAIRED.png)
+
+
+
+> **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
 | Module | Status |
 |---|---|
@@ -250,6 +244,19 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Sequence Duplication Levels | PASS |
 | Overrepresented sequences | PASS |
 | Adapter Content | WARNING |
+
+7. FastQC Summary  of SSFL25-2-1_2_unpaired.fastq read (After Trimming)
+![Summary](IMAGES/BASICS STATSTICS_PR0069_2_UNPAIRED.png)
+![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_UNPAIRED.png)
+![Per Tile Sequence Quality](IMAGES/PER_TILE_SEQUENCE_QUALITY_PR0069_2_UNPAIRED.png)
+![Per Sequence Quality Scores](IMAGES/PER_SEQUENCE_QUALITY_SCORES_PR0069_2_UNPAIRED.png)
+![Per Sequence GC Content](IMAGES/PER_SEQUENCE_GC_CONTENT_PR0069_2_UNPAIRED.png)
+![Per Base N Content](IMAGES/PER_BASE_N_CONTENT_PR0069_2_UNPAIRED.png)
+![Sequence Length Distribution](IMAGES/SEQUENCE_LENGTH_DISTRIBUTION_PR0069_2_UNPAIRED.png)
+![Sequence Duplication Levels](IMAGES/SEQUENCE_DUPLICATION_LEVELS_PR0069_2_UNPAIRED.png)
+![adapter_after.png](IMAGES/ADAPTER_CONTENT_PR0069_2_UNPAIRED.png)
+
+
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
