@@ -513,7 +513,7 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 
 ##  predicted genes by SNAP, AUGUSTUS and Maker
 ![Samegne](GENE/Snap_Augustus_Same.png)
-![Different](GENE/Snap_Augustus_Different)
+![Samegne](GENE/Snap_Augustus_Different.png)
 ![All models](GENE/Gene_prediction.png)
 
 
