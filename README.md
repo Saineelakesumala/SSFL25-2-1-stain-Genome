@@ -493,7 +493,7 @@ augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=t
 ```
 **IGV SNAP predicted genes visualization:**
 
-![Augustus](GENEIMAGE/SNAP.png)
+![Augustus](GENE/Augustus.png)
 
 ### Maker gene predictions
 ```
