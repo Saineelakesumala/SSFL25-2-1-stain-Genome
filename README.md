@@ -511,6 +511,8 @@ singularity exec /share/singularity/images/ccs/MAKER/amd-maker-debian10.sinf mak
 awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 ```
 
-
+##  predicted genes by SNAP, AUGUSTUS and Maker
+![Samegne](GENE/Snap_Augustus_Same.png)
+![Samegne](GENE/Snap_Augustus_Different)
 
 
