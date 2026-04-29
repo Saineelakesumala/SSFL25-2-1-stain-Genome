@@ -486,6 +486,7 @@ snap-hmm Moryzae.hmm  SsFL25-2-1_final00000000.fsa -gff > SsFL25-2-1-snap.gff2
 ```
 augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true SsFL25-2-1_final00000000.fsa > SsFL25-2-1-augustus.gff3
 ```
+![Augustus](Gene/Augustus.png)
 ####  Augustus predicted genes - 17703
 ```
  awk '!/^#/ && $3 == "gene"' SsFL25-2-1-augustus.gff3 | wc -l
