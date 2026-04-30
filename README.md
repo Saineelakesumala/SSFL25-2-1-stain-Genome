@@ -19,8 +19,6 @@ This repository consists bash piplines for genome sequencing cleanup, assembly, 
 8. [Perform Gene Predictions](#Perform-Gene-Predictions)
 9. [Visualize Genes in Genome Browser](#Visualize-Genes-in-Genome-Browser)
 ---
-<details>
-<summary> Download Datasets from the Farman Lab Mac </summary>  
  
 ## Download Datasets from the Farman Lab Mac
 
@@ -30,9 +28,6 @@ This repository consists bash piplines for genome sequencing cleanup, assembly, 
  scp -r ngs@10.163.188.11:Desktop/PR0069 ske300/unix/sequence/SSFL25-2-1
 ```
 ---
-
-<details>
-<summary> Assess Sequence Quality  </summary>  
 
 ## Assess Sequence Quality with FASTQC
 
@@ -53,6 +48,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_1_fastqc.html 
 ```
 scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html .
 ```
+
 #### PR0069.1FastQC Summary (Before Trimming)
 
 | Module | Status |
@@ -71,6 +67,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 > **Warnings:** Per tile sequence quality, Per sequence GC content and Sequence Length Distribution — adapters must be removed for further assembly analysis. 
 
+<details>
+<summary> Assess Sequence Quality  </summary>  
  
 ![Summary](FASTQ/BASIC_STATISTICS_SsFL25_2_1_1.png)
 ![Per Base Sequence Quality](FASTQ/PER_BASE_SEQUENCE-QUALITY.png)
@@ -123,9 +121,6 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 > **Warnings:** Per tile sequence quality, Per sequence GC content and Sequence Length Distribution — adapters must be removed for further assembly analysis. 
 
 ---
-
- <details>
-<summary> Assess Sequence Quality  </summary>  
   
 ## Trim Adaptors and Poor Quality Sequence with Trimmomatic
 1. Edit the list of the adaptor sequences file by adding 20 G to the file:
@@ -276,9 +271,6 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 ---
 
-<details>
-<summary>Generate an Optimized PR0069 Assembly using Velvet and SPAdes </summary>
-
 ### Optimized MyGenome Assembly using Velvet 
 
 1. Transfer trimmed paired and unpaired reads to the MCC cluster:
@@ -315,9 +307,6 @@ sbatch /project/farman_s26abt480/ske300/SSFL25-2-1/velvetoptimiser.sh /project/f
 sbatch /project/farman_s26abt480/ske300/SSFL25-2-1/velvetoptimiser.sh /project/farman_s26abt480/ske300/SSFL25-2-1 51 80 2
 ```
 ---
-
-<details>
-<summary> Optimized PR0069 Assembly SPAdes </summary>
  
 ### Optimized MyGenome Assembly using SPAdes
 
@@ -343,9 +332,6 @@ Hiher N50 contigs are expected to havr higher genome assmebly sequencing coverag
 Velvet with ten and two fold provided lesser N50 contigs.
 
 ---
-
-<details>
-<summary> Genome Post Processing </summary>
  
 ## Perform Genome Post Processing for NCBI Submission
 1.changing scaffolds fasta heading:
@@ -367,8 +353,6 @@ perl /project/farman_s26abt480/ske300/SSFL25-2-1/SimpleFastaHeaders.pl /project/
 ```
 ---
 
-<details>
-<summary> Bandage Visualization  </summary>
  
 ### Bandage Visualization of Optimal Assembly
 
@@ -379,9 +363,6 @@ perl /project/farman_s26abt480/ske300/SSFL25-2-1/SimpleFastaHeaders.pl /project/
 > The Bandage image shows the assembly graph optiained from the spades analysis. Most contigs form clean linear paths indicating minimal ambiguity. A small number of branching nodes correspond to repetitive genomic regions.
 
 ---
-
-<details>
-<summary> BLAST </summary>
  
 ## Genome Interrogation using BLAST
 
@@ -413,15 +394,10 @@ awk '$4/$3 >= 0.9 {print $2 ",mitocondrion"}' MoMitocondrion.SSFL25-2-1.BLAST > 
 
 ---
 
-<details>
-<summary> BLAST summary </summary>
- 
 ### BLAST Findings Summary
 
 > **Mitochondrial contigs:** BLAST against reference mitochondrial sequences identified X contigs as mitochondrial in origin based on high-identity, low e-value hits.
 
-<details>
-<summary>Interpreting BLAST output format 6 columns</summary>
 
 `-outfmt 6` produces tabular output with the following columns:
 
@@ -436,8 +412,6 @@ awk '$4/$3 >= 0.9 {print $2 ",mitocondrion"}' MoMitocondrion.SSFL25-2-1.BLAST > 
 | 7 | sstart | Subject start position |
 | 8 | send | Subject end position |
 | 9 | btop |  BLAST top hits |
-
-</details>
 
 ---
 
@@ -494,13 +468,25 @@ snap-hmm Moryzae.hmm  SsFL25-2-1_final00000000.fsa -gff > SsFL25-2-1-snap.gff2
 ```
  awk '{print $NF}' SsFL25-2-1-snap.gff2  | sort | uniq | wc -l
 ```
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 ![Augustus](GENE/SNAP.png)
 
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 ### Augustus gene predictions
 ```
 augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true SsFL25-2-1_final00000000.fsa > SsFL25-2-1-augustus.gff3
 ```
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 ![Augustus](Gene/Augustus.png)
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 ####  Augustus predicted genes - 17703
 ```
  awk '!/^#/ && $3 == "gene"' SsFL25-2-1-augustus.gff3 | wc -l
@@ -525,6 +511,9 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 ```
 
 ##  predicted genes by SNAP, AUGUSTUS and Maker
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 ![Samegne](GENE/Snap_Augustus_Same.png)
 ![Samegne](GENE/Snap_Augustus_Different.png)
 ![All models](GENE/Gene_prediction.png)
