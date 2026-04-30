@@ -218,15 +218,15 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 
 6. SSFL25-2-1_2_paired.fastq FastQC Summary
-![Summary](IMAGES/Basic_Statistics_PR0069.2.png)
-![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_PAIRED.png)
-![Per Tile Sequence Quality](IMAGES/PER_TILE_SEQUENCE_QUALITY_PR0069_2_PAIRED.png)
-![Per Sequence Quality Scores](IMAGES/PER_BASE_SEQUENCE_QUALITY_PR0069_2_PAIRED.png)
-![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_PAIRED.png)
-![Per Sequence GC Content](IMAGES/PER_BASE_N_CONTENT_PR0069_2_PAIRED.png)
-![Sequence Length Distribution](IMAGES/SEQUENCE_LENGTH_DISTRIBUTION_PR0069_2_PAIRED.png)
-![Sequence Duplication Levels](IMAGES/SEQUENCEDUPLICATION_LEVELS_PR0069_2_PAIRED.png)
-![adapter_after.png](IMAGES/ADAPTER_CONTENT_PR0069_2_PAIRED.png)
+![Summary](SSFL25-2-1-2-PAIRED/Basic_stats.png)
+![Per Base Sequence Quality](SSFL25-2-1-2-PAIRED/Per_base_sequence_quality.png)
+![Per Tile Sequence Quality](SSFL25-2-1-2-PAIRED/Per_tile_sequence_quality.png)
+![Per Sequence Quality Scores](SSFL25-2-1-2-PAIRED/Per_sequence_quality_scores.png)
+![Per Base Sequence Quality](SSFL25-2-1-2-PAIRED/Per_base_sequence_quality.png)
+![Per Sequence GC Content](SSFL25-2-1-2-PAIRED/Per_sequence_GC_content.png)
+![Sequence Length Distribution](SSFL25-2-1-2-PAIRED/Sequence_Length_Distribution.png)
+![Sequence Duplication Levels](SSFL25-2-1-2-PAIRED/Sequence_Duplication_Levels.png)
+![adapter_after.png](SSFL25-2-1-2-PAIRED/Adapter_Content.png)
 
 
 
