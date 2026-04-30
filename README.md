@@ -188,14 +188,14 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | PASS |
 
 6. SSFL25-2-1_1_unpaired.fastq FastQC Summary
-![Summary](IMAGES/Basic_Statistics_Unpaired_PR0069.1.png)
-![Per Base Sequence Quality](IMAGES/Per_base_sequence_quality_unpaired_PR0069.1.png)
-![Per Tile Sequence Quality](IMAGES/per_tile_sequence_quality_unpaired_PR0069.1.png)
-![Per Sequence Quality Scores](IMAGES/Per_sequence_quality_unpaired_PR0069.1.png)
-![Per Base N Content](IMAGES/Per_base_N_content_Unpaired_PR0069.png)
-![Sequence Length Distribution](IMAGES/Sequence_length_distribution_unpaired_PR0069.png)
-![Sequence Duplication Levels](IMAGES/Sequence_duplication_levels_unpaired_PR0069.png)
-![Adapter Content](IMAGES/ADAPTER_CONTENT_PR0069_2_UNPAIRED.png)
+![Summary](FASTQC_UNPAIRED/BAS_STAT.png)
+![Per Base Sequence Quality](FASTQC_UNPAIRED/Per_base_sequence_quality.png)
+![Per Tile Sequence Quality](FASTQC_UNPAIRED/Per_tile_sequence_quality.png)
+![Per Sequence Quality Scores](FASTQC_UNPAIRED/Per_sequence_quality_scores.png)
+![Per Base N Content](FASTQC_UNPAIRED/Per_base_N_content.png)
+![Sequence Length Distribution](FASTQC_UNPAIRED/Sequence_Length_Distribution.png)
+![Sequence Duplication Levels](FASTQC_UNPAIRED/Sequence_Duplication_Levels.png)
+![Adapter Content](FASTQC_UNPAIRED/Adapter_Content.png)
 
 
 
