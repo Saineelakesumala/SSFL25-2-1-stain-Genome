@@ -68,7 +68,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 > **Warnings:** Per tile sequence quality, Per sequence GC content and Sequence Length Distribution — adapters must be removed for further assembly analysis. 
 
 <details>
-<summary> Assess Sequence Quality  </summary>  
+<summary> Title </summary>
+
  
 ![Summary](FASTQ/BASIC_STATISTICS_SsFL25_2_1_1.png)
 ![Per Base Sequence Quality](FASTQ/PER_BASE_SEQUENCE-QUALITY.png)
@@ -82,9 +83,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Overrepresented sequences](FASTQ/OVERREPRESENTED_SEQUENCE_SsFL25_2_1.png)
 ![Adapter Content](FASTQ/ADAPTOR_CONTENT_SsFL25_2_1_1.png)
 
-<details>
-<summary> Assess Sequence Quality  </summary>
-
+</details>
 
 6. PR0069.2 FastQC Summary
 
