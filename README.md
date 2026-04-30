@@ -70,7 +70,6 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 <details>
 <summary> Title </summary>
 
- 
 ![Summary](FASTQ/BASIC_STATISTICS_SsFL25_2_1_1.png)
 ![Per Base Sequence Quality](FASTQ/PER_BASE_SEQUENCE-QUALITY.png)
 ![Per Tile Sequence Quality](FASTQ/PER_TILE_SEQUENCE_QUALITY_SsFL25-2-1-1.png)
@@ -84,6 +83,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Adapter Content](FASTQ/ADAPTOR_CONTENT_SsFL25_2_1_1.png)
 
 </details>
+
 
 6. PR0069.2 FastQC Summary
 
