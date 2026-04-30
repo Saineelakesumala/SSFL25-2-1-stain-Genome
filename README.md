@@ -422,7 +422,7 @@ awk '$4/$3 >= 0.9 {print $2 ",mitocondrion"}' MoMitocondrion.SSFL25-2-1.BLAST > 
 - [mito_contigs.csv](SsFL25-2-1.csv) — CSV list of mitochondrial contigs for NCBI upload
 
 ---
-## MyGenome Gene Prediction
+## Perform Gene Predictions
 ### Train the data to HMM
 ```
  scp ske300@mcc.uky.edu:/project/farman_s26abt480/RESOURCES/B71Ref2.fasta snap/B71Ref2.fasta
@@ -507,13 +507,16 @@ singularity exec /share/singularity/images/ccs/MAKER/amd-maker-debian10.sinf mak
 awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 ```
 
-##  predicted genes by SNAP, AUGUSTUS and Maker
+##  Visualize Genes in Genome Browser 
 
 <details>
-<summary> Assess Sequence Quality  </summary>  
+<summary> Assess Sequence Quality  </summary> 
  
+ ### SNAP and AUGUSTUS prediction of same gene
 ![Samegne](GENE/Snap_Augustus_Same.png)
+### SNAP and AUGUSTUS prediction of different gene
 ![Samegne](GENE/Snap_Augustus_Different.png)
+### SNAP, AUGUSTUS and Maker same gene
 ![All models](GENE/Gene_prediction.png)
 
 </details>
