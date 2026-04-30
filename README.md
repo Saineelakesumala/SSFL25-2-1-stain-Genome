@@ -103,7 +103,9 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Overrepresented sequences | WARNING |
 | Adapter Content | FAILED |
 
-
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 ![Summary](FASTQ2/BASIC_STATISTICS_SsFL25_2_1_2.png)
 ![Per Base Sequence Quality](FASTQ2/PER_BAE_SEQUENCE_QUALITY_SsFL25_2_1_2.png)
 ![Per Tile Sequence Quality](FASTQ2/PER_TILE_SEQUENCE_QUALITY_SsFL25_2_1_2.png)
@@ -159,8 +161,10 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
-4. SSFL25-2-1_1_paired.fastq FastQC Summary
-   
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
+4. SSFL25-2-1_1_paired.fastq FastQC Summary  
 ![Summary](FASTQU_PAIRED/Basic_stats_SsFL-25-1-1-PAIRED.png)
 ![Per Base Sequence Quality](FASTQU_PAIRED/PER_BASE_SEQUENCE_QUALITY_SsFL25-1-1-PAIRED.png)
 ![Per Tile Sequence Quality](FASTQU_PAIRED/Per_tile_sequence_quality-SsFL25-1-1-PAIRED.png)
@@ -187,7 +191,11 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Overrepresented sequences | PASS |
 | Adapter Content | PASS |
 
-6. SSFL25-2-1_1_unpaired.fastq FastQC Summary
+
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
+ 6. SSFL25-2-1_1_unpaired.fastq FastQC Summary
 ![Summary](FASTQC_UNPAIRED/BAS_STAT.png)
 ![Per Base Sequence Quality](FASTQC_UNPAIRED/Per_base_sequence_quality.png)
 ![Per Tile Sequence Quality](FASTQC_UNPAIRED/Per_tile_sequence_quality.png)
@@ -216,7 +224,9 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Overrepresented sequences | PASS |
 | Adapter Content | WARNING |
 
-
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 6. SSFL25-2-1_2_paired.fastq FastQC Summary
 ![Summary](SSFL25-2-1-2-PAIRED/Basic_stats.png)
 ![Per Base Sequence Quality](SSFL25-2-1-2-PAIRED/Per_base_sequence_quality.png)
@@ -246,6 +256,9 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Overrepresented sequences | PASS |
 | Adapter Content | WARNING |
 
+<details>
+<summary> Assess Sequence Quality  </summary>  
+ 
 7. FastQC Summary  of SSFL25-2-1_2_unpaired.fastq read (After Trimming)
 ![Summary](IMAGES/BASICS STATSTICS_PR0069_2_UNPAIRED.png)
 ![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_UNPAIRED.png)
