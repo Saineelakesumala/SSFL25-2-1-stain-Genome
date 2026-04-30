@@ -68,7 +68,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 > **Warnings:** Per tile sequence quality, Per sequence GC content and Sequence Length Distribution — adapters must be removed for further assembly analysis. 
 
 <details>
-<summary> Title </summary>
+<summary> PR0069.1FastQC </summary>
 
 ![Summary](FASTQ/BASIC_STATISTICS_SsFL25_2_1_1.png)
 ![Per Base Sequence Quality](FASTQ/PER_BASE_SEQUENCE-QUALITY.png)
@@ -102,7 +102,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | FAILED |
 
 <details>
-<summary> Assess Sequence Quality  </summary>  
+<summary> PR0069.2 FastQ </summary>  
  
 ![Summary](FASTQ2/BASIC_STATISTICS_SsFL25_2_1_2.png)
 ![Per Base Sequence Quality](FASTQ2/PER_BAE_SEQUENCE_QUALITY_SsFL25_2_1_2.png)
@@ -116,8 +116,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Overrepresented sequences](FASTQ2/OVERREPRESENTED_SEQUENCE_SsFL25_2_1_2.png)
 ![Adapter Content](FASTQ2/ADAPTER_CONTENT_SsFL25_2_1_2.png)
 
-<details>
-<summary> Assess Sequence Quality  </summary>
+</details>
+
 
 > **Warnings:** Per tile sequence quality, Per sequence GC content and Sequence Length Distribution — adapters must be removed for further assembly analysis. 
 
@@ -158,7 +158,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
 <details>
-<summary> Assess Sequence Quality  </summary>  
+<summary>  SSFL25-2-1_1_paired.fastq  </summary>  
  
 4. SSFL25-2-1_1_paired.fastq FastQC Summary  
 ![Summary](FASTQU_PAIRED/Basic_stats_SsFL-25-1-1-PAIRED.png)
@@ -172,6 +172,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Sequence Duplication Levels](FASTQ/SEQUENCE_DUPLICATION_LEVELS_SsFL25_2_1-1.png)
 ![Overrepresented sequences](FASTQ/OVERREPRESENTED_SEQUENCE_SsFL25_2_1.png)
 ![Adapter Content](FASTQU_PAIRED/Adapter_Content-SsFL25-1-1PAIRED.png)
+
+</details>
 
 | Module | Status |
 |---|---|
@@ -187,11 +189,9 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Overrepresented sequences | PASS |
 | Adapter Content | PASS |
 
-
 <details>
-<summary> Assess Sequence Quality  </summary>  
- 
- 6. SSFL25-2-1_1_unpaired.fastq FastQC Summary
+<summary> SFL25-2-1_1_unpaired.fastq </summary> 
+  
 ![Summary](FASTQC_UNPAIRED/BAS_STAT.png)
 ![Per Base Sequence Quality](FASTQC_UNPAIRED/Per_base_sequence_quality.png)
 ![Per Tile Sequence Quality](FASTQC_UNPAIRED/Per_tile_sequence_quality.png)
@@ -200,7 +200,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Sequence Length Distribution](FASTQC_UNPAIRED/Sequence_Length_Distribution.png)
 ![Sequence Duplication Levels](FASTQC_UNPAIRED/Sequence_Duplication_Levels.png)
 ![Adapter Content](FASTQC_UNPAIRED/Adapter_Content.png)
-
+ </details>
 
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
@@ -221,9 +221,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | WARNING |
 
 <details>
-<summary> Assess Sequence Quality  </summary>  
+<summary> SSFL25-2-1_2_paired.fastq  </summary>  
  
-6. SSFL25-2-1_2_paired.fastq FastQC Summary
 ![Summary](SSFL25-2-1-2-PAIRED/Basic_stats.png)
 ![Per Base Sequence Quality](SSFL25-2-1-2-PAIRED/Per_base_sequence_quality.png)
 ![Per Tile Sequence Quality](SSFL25-2-1-2-PAIRED/Per_tile_sequence_quality.png)
@@ -234,6 +233,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Sequence Duplication Levels](SSFL25-2-1-2-PAIRED/Sequence_Duplication_Levels.png)
 ![adapter_after.png](SSFL25-2-1-2-PAIRED/Adapter_Content.png)
 
+</details>
 
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
@@ -253,9 +253,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | WARNING |
 
 <details>
-<summary> Assess Sequence Quality  </summary>  
+<summary> SSFL25-2-1_2_unpaired.fastq </summary>  
  
-7. FastQC Summary  of SSFL25-2-1_2_unpaired.fastq read (After Trimming)
 ![Summary](IMAGES/BASICS STATSTICS_PR0069_2_UNPAIRED.png)
 ![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_UNPAIRED.png)
 ![Per Tile Sequence Quality](IMAGES/PER_TILE_SEQUENCE_QUALITY_PR0069_2_UNPAIRED.png)
@@ -266,6 +265,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ![Sequence Duplication Levels](IMAGES/SEQUENCE_DUPLICATION_LEVELS_PR0069_2_UNPAIRED.png)
 ![adapter_after.png](IMAGES/ADAPTER_CONTENT_PR0069_2_UNPAIRED.png)
 
+</details>
 
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
@@ -357,9 +357,11 @@ perl /project/farman_s26abt480/ske300/SSFL25-2-1/SimpleFastaHeaders.pl /project/
  
 ### Bandage Visualization of Optimal Assembly
 
-**Bandage graph of optimal SPAdes assembly:**
-
+<details>
+<summary> *Bandage graph of optimal SPAdes assembly </summary>  
 ![bandage_assembly.png](Bandage/SsFL25-1-1-spades-paired.png)
+ 
+</details>
 
 > The Bandage image shows the assembly graph optiained from the spades analysis. Most contigs form clean linear paths indicating minimal ambiguity. A small number of branching nodes correspond to repetitive genomic regions.
 
@@ -417,7 +419,6 @@ awk '$4/$3 >= 0.9 {print $2 ",mitocondrion"}' MoMitocondrion.SSFL25-2-1.BLAST > 
 ---
 
 ### Output Files
-
 - [mito_contigs.csv](SsFL25-2-1.csv) — CSV list of mitochondrial contigs for NCBI upload
 
 ---
@@ -470,31 +471,26 @@ snap-hmm Moryzae.hmm  SsFL25-2-1_final00000000.fsa -gff > SsFL25-2-1-snap.gff2
  awk '{print $NF}' SsFL25-2-1-snap.gff2  | sort | uniq | wc -l
 ```
 <details>
-<summary> Assess Sequence Quality  </summary>  
+<summary> SNAP predicted genes IGV  </summary>  
  
 ![Augustus](GENE/SNAP.png)
 
-<details>
-<summary> Assess Sequence Quality  </summary>  
+</details>
+
  
-### Augustus gene predictions
+### Augustus gene predictions - 17703
 ```
 augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true SsFL25-2-1_final00000000.fsa > SsFL25-2-1-augustus.gff3
 ```
-<details>
-<summary> Assess Sequence Quality  </summary>  
- 
-![Augustus](Gene/Augustus.png)
-<details>
-<summary> Assess Sequence Quality  </summary>  
- 
-####  Augustus predicted genes - 17703
 ```
  awk '!/^#/ && $3 == "gene"' SsFL25-2-1-augustus.gff3 | wc -l
 ```
-**IGV SNAP predicted genes visualization:**
-
+<details>
+<summary> Augustus predicted genes IGV  </summary>
+ 
 ![Augustus](GENE/Augustus.png)
+
+</details>
 
 ### Maker gene predictions
 ```
@@ -512,6 +508,7 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 ```
 
 ##  predicted genes by SNAP, AUGUSTUS and Maker
+
 <details>
 <summary> Assess Sequence Quality  </summary>  
  
@@ -519,4 +516,5 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 ![Samegne](GENE/Snap_Augustus_Different.png)
 ![All models](GENE/Gene_prediction.png)
 
+</details>
 
