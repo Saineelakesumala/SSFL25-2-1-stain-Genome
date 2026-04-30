@@ -361,7 +361,7 @@ perl /project/farman_s26abt480/ske300/SSFL25-2-1/SimpleFastaHeaders.pl /project/
 
 **Bandage graph of optimal SPAdes assembly:**
 
-![bandage_assembly.png](PR0069graph.png)
+![bandage_assembly.png](Bandage/SsFL25-1-1-spades-paired.png)
 
 > The Bandage image shows the assembly graph optiained from the spades analysis. Most contigs form clean linear paths indicating minimal ambiguity. A small number of branching nodes correspond to repetitive genomic regions.
 
