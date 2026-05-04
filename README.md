@@ -522,4 +522,4 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 </details>
 
 ## BLASTing MyGenome
- 
+[Blast with refeence genome](B71.SsFL25-2-1.blast.gff3) — gff3 file
