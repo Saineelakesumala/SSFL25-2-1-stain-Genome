@@ -125,6 +125,17 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ---
   
 ## Trim Adaptors and Poor Quality Sequence with Trimmomatic
+1. Number of sequence reads before trimming
+   ```
+   zcat  SSFL25-2-1.fq.gz | wc -l | awk '{print $1/4}'
+   ```
+   Output: 10,592,723
+   
+   ```
+   zcat  SSFL25-2-2.fq.gz | wc -l | awk '{print $1/4}'
+   ```
+    Output: 10,592,723
+   
 1. Edit the list of the adaptor sequences file by adding 20 G to the file:
    
  ```
