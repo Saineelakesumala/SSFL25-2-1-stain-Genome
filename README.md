@@ -12,7 +12,10 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
     - [Sense strand Reads FASTQC Summary](#Sense-strand-Reads-FASTQC-Summary)
     - [Anti-sense Reads FASTQC Summary](#Anti-sense-Reads-FASTQC-Summary )
 4. [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
-   - [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
+   - [Sense strand paired Reads FASTQC Summary](#Sense-strand-paired-Reads-FASTQC-Summary)
+   - [Sense strand unpaired Reads FASTQC Summary](#Sense-strand-unpaired-Reads-FASTQC-Summary)
+   - [Anti-sense Paired Reads FASTQC Summary](#Anti-sense-Paired-Reads-FASTQC-Summary)
+   - [Anti-sense Paired Reads FASTQC Summary](#Anti-sense-Paired-Reads-FASTQC-Summary)
 5. [Generate an Optimized MyGenome Assembly using Velvet and SPAdes](#Generate-an-Optimized-MyGenome-Assembly-using-Velvet-and-SPAdes)
 6. [Perform Genome Post Processing for NCBI Submission](#Perform-Genome-Post-Processing-for-NCBI-Submission)
 7. [Assess Genome Quality using BUSCO](#Assess-Genome-Quality-using-BUSCO)
@@ -142,16 +145,17 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
  nano ske300/unix/sequence/adaptors.fa
  ```
 
-2. Run Trimmomatic to remove adapters and low-quality bases on both paired and unpaired raw reads:
+3. Run folowing Trimmomatic command line to remove contamination:
 
 ```
  java -jar sequences/trimmomatic-0.38.jar PE -threads 2 -phred33 -trimlog Br80_errorlog.txt ske300/unix/sequence/SSFL25-2-1/SSFL25-2-1_1.fq.gz ske300/unix/sequence/SSFL25-2-1/SSFL25-2-1_2.fq.gz SSFL25-2-1_1_paired.fastq SSFL25-2-1_1_unpaired.fastq SSFL25-2-1_2_paired.fastq SSFL25-2-1_2_unpaired.fastq ILLUMINACLIP:ske300/unix/sequence/PR0069/adaptors.fa:2:30:10 SLIDINGWINDOW:20:20 MINLEN:125
 ```
-3. Re-run FastQC on trimmed paired and unpaired reads to confirm improvement:
+4. Trimmed reads quality check with FastQC:
 
 ```
  fastqc  SSFL25-2-1_1_paired.fastq SSFL25-2-1_2_paired.fastq  SSFL25-2-1_1_unpaired.fastq SSFL25-2-1_2_unpaired.fastq
 ```
+### Sense strand paired Reads FASTQC Summary 
 
 | Module | Status |
 |---|---|
@@ -187,6 +191,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 </details>
 
+### Sense strand unpaired Reads FASTQC Summary 
+
 | Module | Status |
 |---|---|
 | Basic Statistics | PASS |
@@ -217,6 +223,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
+### Anti-sense Paired Reads FASTQC Summary
 
 | Module | Status |
 |---|---|
@@ -249,6 +256,8 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
+
+### Anti-sense Unpaired Reads FASTQC Summary
 
 | Module | Status |
 |---|---|
