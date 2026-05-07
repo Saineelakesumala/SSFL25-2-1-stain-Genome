@@ -11,13 +11,15 @@ This repository consists bash piplines for genome sequencing cleanup, assembly, 
 ## Table of Contents
 1. [Download Datasets from the Farman Lab Mac](#Download-Datasets-from-the-Farman-Lab-Mac)
 2. [Assess Sequence Quality with FASTQC](#Assess-Sequence-Quality-with-FASTQC)
-3. [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
-4. [Generate an Optimized MyGenome Assembly using Velvet and SPAdes](#Generate-an-Optimized-MyGenome-Assembly-using-Velvet-and-SPAdes)
-5. [Perform Genome Post Processing for NCBI Submission](#Perform-Genome-Post-Processing-for-NCBI-Submission)
-6. [Assess Genome Quality using BUSCO](#Assess-Genome-Quality-using-BUSCO)
-7. [Genome Interrogation using BLAST](#Genome-Interrogation-using-BLAST)
-8. [Perform Gene Predictions](#Perform-Gene-Predictions)
-9. [Visualize Genes in Genome Browser](#Visualize-Genes-in-Genome-Browser)
+    -[Forward Reads FASTQC Summary](#Forward-Reads-FASTQC-Summary)
+4. [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
+   - [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
+5. [Generate an Optimized MyGenome Assembly using Velvet and SPAdes](#Generate-an-Optimized-MyGenome-Assembly-using-Velvet-and-SPAdes)
+6. [Perform Genome Post Processing for NCBI Submission](#Perform-Genome-Post-Processing-for-NCBI-Submission)
+7. [Assess Genome Quality using BUSCO](#Assess-Genome-Quality-using-BUSCO)
+8. [Genome Interrogation using BLAST](#Genome-Interrogation-using-BLAST)
+9. [Perform Gene Predictions](#Perform-Gene-Predictions)
+10. [Visualize Genes in Genome Browser](#Visualize-Genes-in-Genome-Browser)
 ---
  
 ## Download Datasets from the Farman Lab Mac
@@ -29,7 +31,7 @@ This repository consists bash piplines for genome sequencing cleanup, assembly, 
 ```
 ---
 
-## Assess Sequence Quality with FASTQC
+## Raw reads quality check with FASTQC
 
 1. Run FastQC on the raw reads:
 
@@ -49,7 +51,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_1_fastqc.html 
 scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html .
 ```
 
-#### PR0069.1FastQC Summary (Before Trimming)
+#### PR0069.1: Forward Reads FASTQC Summary 
 
 | Module | Status |
 |---|---|
