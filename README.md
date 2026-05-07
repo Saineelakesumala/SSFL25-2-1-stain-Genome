@@ -552,6 +552,6 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 
 Genes that expressed only in planta
  
-[Blast with refeence genome](B71.SsFL25-2-1.blast.gff3) — gff3 file
+[In_planta_gene_expression.png](In_planta_gene_expression.png) 
 
 <details>
