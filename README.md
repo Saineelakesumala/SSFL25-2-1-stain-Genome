@@ -10,6 +10,7 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
 1. [Download Datasets from the Farman Lab Mac](#Download-Datasets-from-the-Farman-Lab-Mac)
 2. [Raw reads quality check with FASTQC](#Raw-reads-quality-check-with-FASTQC)
     - [Forward Reads FASTQC Summary](#Forward-Reads-FASTQC-Summary)
+    - [ PR0069.2: Anti-sense Reads FASTQC Summary ](#PR0069.2:-Anti-sense-Reads-FASTQC-Summary )
 4. [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
    - [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
 5. [Generate an Optimized MyGenome Assembly using Velvet and SPAdes](#Generate-an-Optimized-MyGenome-Assembly-using-Velvet-and-SPAdes)
@@ -49,7 +50,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_1_fastqc.html 
 scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html .
 ```
 
-### PR0069.1: Forward Reads FASTQC Summary 
+### PR0069.1: Sense strand Reads FASTQC Summary 
 
 | Module | Status |
 |---|---|
@@ -85,7 +86,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 </details>
 
 
-6. PR0069.2 FastQC Summary
+### PR0069.2: Anti-sense Reads FASTQC Summary 
 
 | Module | Status |
 |---|---|
