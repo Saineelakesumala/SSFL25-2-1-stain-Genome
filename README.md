@@ -155,7 +155,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 ```
  fastqc  SSFL25-2-1_1_paired.fastq SSFL25-2-1_2_paired.fastq  SSFL25-2-1_1_unpaired.fastq SSFL25-2-1_2_unpaired.fastq
 ```
-### Sense strand paired Reads FASTQC Summary 
+### Sense strand Paired Reads FASTQC Summary 
 
 | Module | Status |
 |---|---|
@@ -191,7 +191,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 </details>
 
-### Sense strand unpaired Reads FASTQC Summary 
+### Sense strand Unpaired Reads FASTQC Summary 
 
 | Module | Status |
 |---|---|
