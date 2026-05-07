@@ -16,8 +16,8 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
    - [Sense strand Unpaired Reads FASTQC Summary](#Sense-strand-Unpaired-Reads-FASTQC-Summary)
    - [Anti-sense Paired Reads FASTQC Summary](#Anti-sense-Paired-Reads-FASTQC-Summary)
    - [Anti-sense Unpaired Reads FASTQC Summary](#Anti-sense-Unpaired-Reads-FASTQC-Summary)
-5. [Generate an Optimized MyGenome Assembly using Velvet and SPAdes](#Generate-an-Optimized-MyGenome-Assembly-using-Velvet-and-SPAdes)
-6. [Perform Genome Post Processing for NCBI Submission](#Perform-Genome-Post-Processing-for-NCBI-Submission)
+5. [Genome Assembly](#Genome-Assembly)
+6. [Post Processing - NCBI Submission](#Post-Processing-NCBI-Submission)
 7. [Assess Genome Quality using BUSCO](#Assess-Genome-Quality-using-BUSCO)
 8. [Genome Interrogation using BLAST](#Genome-Interrogation-using-BLAST)
 9. [Perform Gene Predictions](#Perform-Gene-Predictions)
@@ -293,7 +293,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 ---
 
-### Optimized MyGenome Assembly using Velvet 
+## Genome Assembly
 
 1. Transfer trimmed paired and unpaired reads to the MCC cluster:
 
@@ -355,7 +355,7 @@ Velvet with ten and two fold provided lesser N50 contigs.
 
 ---
  
-## Perform Genome Post Processing for NCBI Submission
+## Post Processing - NCBI Submission
 1.changing scaffolds fasta heading:
 
  ```
