@@ -69,7 +69,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 > **Warnings:** Per tile sequence quality, Per sequence GC content and Sequence Length Distribution — adapters must be removed for further assembly analysis. 
 
 <details>
-<summary> PR0069.1FastQC </summary>
+<summary> PR0069.1FastQC Report </summary>
 
 ![Summary](FASTQ/BASIC_STATISTICS_SsFL25_2_1_1.png)
 ![Per Base Sequence Quality](FASTQ/PER_BASE_SEQUENCE-QUALITY.png)
@@ -103,7 +103,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | FAILED |
 
 <details>
-<summary> PR0069.2 FastQ </summary>  
+<summary> PR0069.2 FastQC Report </summary>  
  
 ![Summary](FASTQ2/BASIC_STATISTICS_SsFL25_2_1_2.png)
 ![Per Base Sequence Quality](FASTQ2/PER_BAE_SEQUENCE_QUALITY_SsFL25_2_1_2.png)
@@ -159,7 +159,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 > **After trimming:** Adapter content warning was resolved. All critical modules now pass.
 
 <details>
-<summary>  SSFL25-2-1_1_paired.fastq  </summary>  
+<summary>  SSFL25-2-1_1_paired.FASTQC Report </summary>  
  
 4. SSFL25-2-1_1_paired.fastq FastQC Summary  
 ![Summary](FASTQU_PAIRED/Basic_stats_SsFL-25-1-1-PAIRED.png)
@@ -191,7 +191,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | PASS |
 
 <details>
-<summary> SFL25-2-1_1_unpaired.fastq </summary> 
+<summary> SFL25-2-1_1_unpaired.FASTQC Report </summary> 
   
 ![Summary](FASTQC_UNPAIRED/BAS_STAT.png)
 ![Per Base Sequence Quality](FASTQC_UNPAIRED/Per_base_sequence_quality.png)
@@ -222,7 +222,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | WARNING |
 
 <details>
-<summary> SSFL25-2-1_2_paired.fastq  </summary>  
+<summary> SSFL25-2-1_2_paired.FASTQC Report  </summary>  
  
 ![Summary](SSFL25-2-1-2-PAIRED/Basic_stats.png)
 ![Per Base Sequence Quality](SSFL25-2-1-2-PAIRED/Per_base_sequence_quality.png)
@@ -254,7 +254,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 | Adapter Content | WARNING |
 
 <details>
-<summary> SSFL25-2-1_2_unpaired.fastq </summary>  
+<summary> SSFL25-2-1_2_unpaired.FASTQC Report </summary>  
  
 ![Summary](IMAGES/BASICS STATSTICS_PR0069_2_UNPAIRED.png)
 ![Per Base Sequence Quality](IMAGES/PER_BASE_SEQUENCE_CONTENT_PR0069_2_UNPAIRED.png)
