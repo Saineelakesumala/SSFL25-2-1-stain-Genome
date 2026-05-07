@@ -539,6 +539,8 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 ![Samegne](GENE/Snap_Augustus_Different.png)
 ### SNAP, AUGUSTUS and Maker same gene
 ![All models](GENE/Gene_prediction.png)
+### Genes that expressed only in planta
+[In_planta_gene_expression.png](In_planta_gene_expression.png) 
 
 </details>
 
@@ -549,9 +551,5 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 [Blast with refeence genome](B71.SsFL25-2-1.blast.gff3) — gff3 file
  
 [pridicted largest gene](BF1_blast_IGV.png)
-
-Genes that expressed only in planta
- 
-[In_planta_gene_expression.png](In_planta_gene_expression.png) 
 
 <details>
