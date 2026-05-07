@@ -7,7 +7,7 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
 ---
 
 ## Table of Contents
-1. [Download Datasets from the Farman Lab Mac](#Download-Datasets-from-the-Farman-Lab-Mac)
+1. [Data collection - Farman lab](#Data-collection-Farman-lab)
 2. [Raw reads quality check with FASTQC](#Raw-reads-quality-check-with-FASTQC)
     - [Sense strand Reads FASTQC Summary](#Sense-strand-Reads-FASTQC-Summary)
     - [Anti-sense Reads FASTQC Summary](#Anti-sense-Reads-FASTQC-Summary )
