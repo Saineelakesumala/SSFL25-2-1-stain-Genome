@@ -550,4 +550,8 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
  
 [pridicted largest gene](BF1_blast_IGV.png)
 
+Genes that expressed only in planta
+ 
+[Blast with refeence genome](B71.SsFL25-2-1.blast.gff3) — gff3 file
+
 <details>
