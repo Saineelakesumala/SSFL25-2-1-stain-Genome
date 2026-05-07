@@ -9,7 +9,7 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
 ## Table of Contents
 1. [Download Datasets from the Farman Lab Mac](#Download-Datasets-from-the-Farman-Lab-Mac)
 2. [Raw reads quality check with FASTQC](#Raw-reads-quality-check-with-FASTQC)
-    -[Forward Reads FASTQC Summary](#Forward-Reads-FASTQC-Summary)
+    - [Forward Reads FASTQC Summary](#Forward-Reads-FASTQC-Summary)
 4. [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
    - [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
 5. [Generate an Optimized MyGenome Assembly using Velvet and SPAdes](#Generate-an-Optimized-MyGenome-Assembly-using-Velvet-and-SPAdes)
