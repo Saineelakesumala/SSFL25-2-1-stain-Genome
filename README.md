@@ -8,10 +8,10 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
 
 ## Table of Contents
 1. [Raw Sequence-Farman lab](#Raw-Sequence-Farman-lab)
-2. [Raw reads quality check with FASTQC](#Raw-reads-quality-check-with-FASTQC)
+2. [Quality check](#Quality-check)
     - [Sense strand Reads FASTQC Summary](#Sense-strand-Reads-FASTQC-Summary)
     - [Anti-sense Reads FASTQC Summary](#Anti-sense-Reads-FASTQC-Summary )
-4. [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
+4. [Raw Reads Trimming](#Raw-Reads-Trimming)
    - [Sense strand paired Reads FASTQC Summary](#Sense-strand-paired-Reads-FASTQC-Summary)
    - [Sense strand Unpaired Reads FASTQC Summary](#Sense-strand-Unpaired-Reads-FASTQC-Summary)
    - [Anti-sense Paired Reads FASTQC Summary](#Anti-sense-Paired-Reads-FASTQC-Summary)
@@ -24,7 +24,7 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
 10. [Visualize Genes in Genome Browser](#Visualize-Genes-in-Genome-Browser)
 ---
  
-## Download Datasets from the Farman Lab Mac
+## Raw Sequence-Farman lab
 
 1. Connect to the remote server and copy raw sequencing reads to your working directory:
 
@@ -33,7 +33,7 @@ This repository consists of bash piplines for Raw genome reads cleanup to gene a
 ```
 ---
 
-## Raw reads quality check with FASTQC
+## Quality check
 
 1. Run FastQC on the raw reads:
 
@@ -127,7 +127,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html 
 
 ---
   
-## Trim Adaptors and Poor Quality Sequence with Trimmomatic
+## Raw Reads Trimming
 1. Number of sequence reads before trimming
    ```
    zcat  SSFL25-2-1.fq.gz | wc -l | awk '{print $1/4}'
