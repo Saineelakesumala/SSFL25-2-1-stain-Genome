@@ -11,7 +11,6 @@ This repository consists bash piplines for genome sequencing cleanup, assembly, 
 ## Table of Contents
 1. [Download Datasets from the Farman Lab Mac](#Download-Datasets-from-the-Farman-Lab-Mac)
 2. [Assess Sequence Quality with FASTQC](#Assess-Sequence-Quality-with-FASTQC)
-   
     -[Forward Reads FASTQC Summary](#Forward-Reads-FASTQC-Summary)
 4. [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
    - [Trim Adaptors and Poor Quality Sequence with Trimmomatic](#Trim-Adaptors-and-Poor-Quality-Sequence-with-Trimmomatic)
