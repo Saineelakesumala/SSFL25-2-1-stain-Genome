@@ -51,7 +51,7 @@ scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_1_fastqc.html 
 scp -r ske300@ske300.cs.uky.edu:~/sequences/SSFL25-2-1/SSFL25-2-1_2_fastqc.html .
 ```
 
-#### PR0069.1: Forward Reads FASTQC Summary 
+### PR0069.1: Forward Reads FASTQC Summary 
 
 | Module | Status |
 |---|---|
