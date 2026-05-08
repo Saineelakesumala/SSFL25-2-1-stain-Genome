@@ -1,7 +1,11 @@
 
 # BioSample(SAMN55040921) Entry on NCBI BioProject(PRJNA926786)
-
+<details>
+<summary> PR0069 </summary>
+    
 ![PR0069](PR0069.png)
+
+<details>
 This repository consists of bash piplines for Raw genome reads cleanup to gene annotation for NCBI submission.
 
 ---
