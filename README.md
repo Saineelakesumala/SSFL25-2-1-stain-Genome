@@ -1,5 +1,5 @@
 
-# BioSample(SAMN55040921) Entry on NCBI BioProject(PRJNA926786)
+# BioSample(SAMN55040921) Entry on NCBI - BioProject(PRJNA926786)
 
 This repository consists of bash piplines for Raw genome reads cleanup to gene annotation for NCBI submission.
 
