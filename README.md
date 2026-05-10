@@ -539,7 +539,7 @@ awk '$3== "gene"' SsFL25-2-1_maker.gff3 | wc -l
 ### SNAP, AUGUSTUS and Maker same gene
 ![All models](GENE/Gene_prediction.png)
 ### Genes that expressed only in planta
-![In_planta_gene_expression.png](In_planta_gene_expression.png) 
+![In_planta_gene_expression.png](planta.png) 
 
 </details>
 
